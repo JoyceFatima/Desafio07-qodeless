@@ -15,8 +15,8 @@ function App() {
           justifyContent: 'center',
         }}>
           <Link to="/">Home</Link>
-          <Link to="users/*">Users</Link>
-          <Link to="contact/*">Contact us</Link>
+          <Link to="users/">Users</Link>
+          <Link to="contact/">Contact us</Link>
         </nav>
         <div>
           <Rotas />

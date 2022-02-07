@@ -8,8 +8,8 @@ export default function Rotas() {
     return (
       <Routes>
         <Route path="/" element={<Page1 />} />
-        <Route path="users/*" element={<Page2 />} />
-        <Route path="contact/*" element={<Page3 />} />
+        <Route path="users/" element={<Page2 />} />
+        <Route path="contact/" element={<Page3 />} />
       </Routes>
     );
 }
